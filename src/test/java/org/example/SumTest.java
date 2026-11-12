@@ -13,9 +13,10 @@ public class SumTest {
 
     }
     @Test
-    public void testAddingTwoNumWrong(){
+    public void testAddingTwoNumbersInReverseOrder() {
         Sum cal = new Sum();
-        assertEquals(4, cal.add(5,3));
+        assertEquals(8, cal.add(5, 3));
+
     }
 
 
